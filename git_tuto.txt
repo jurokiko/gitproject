@@ -1,0 +1,7 @@
+Etapes d'utilisation de git:
+1- Créer le répertoire du projet
+2- Se placer dansle répertoire et utiliser la commande : $ git init
+3- Poursuivre le projet
+4- Indexer avec la commande : $ git add fichier1 ficher2 ...
+5- Faire un commit avec : $ git commit -m "commentaire"
+6- 
