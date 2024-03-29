@@ -2,6 +2,14 @@ Etapes d'utilisation de git:
 1- Créer le répertoire du projet
 2- Se placer dansle répertoire et utiliser la commande : $ git init
 3- Poursuivre le projet
+6- Creer une branche principale : $ git branch -M main
+ - Créer une branche quelconque : $ git branch ma-branch
+ - Se déplacer sur une branche : $ git checkout ma-banche
+ - Fusionner deux branches (main & ma-branche): se placer dans la branche main $ git merge ma-branche
+ - Faire un pull : $ git pull origin main
+
+################ A chaque fois qu'on veut mettre en à jour un repository #############################
 4- Indexer avec la commande : $ git add fichier1 ficher2 ...
 5- Faire un commit avec : $ git commit -m "commentaire"
-6- 
+7- Pusher le repertoire distant (sur la branche main) : $ git push <-u> origin main
+
